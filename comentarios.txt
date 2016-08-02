@@ -1,7 +1,7 @@
 Ferramentas de Desenvolvimento de Software 2 - 2016/2 => TADS/IFRS
 => RAD2 - TADS/FURG
 
-Materiais/Apostilas/Nudes....:
+Materiais/Apostilas:
 igoravilapereira.github.io
 
 Repositório GIT:
