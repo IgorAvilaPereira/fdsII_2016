@@ -1,37 +1,35 @@
-Ferramentas de Desenvolvimento de Software 2 - 2016/2 => TADS/IFRS
-=> RAD2 - TADS/FURG
+‪#‎fds2‬
 
 Materiais/Apostilas:
-igoravilapereira.github.io
+http://igoravilapereira.github.io
 
 Repositório GIT:
 https://github.com/IgorAvilaPereira/fdsII_2016
 
 Atendimento:
-Segundas: à tarde (13:50 - 18:50)
-Terças: à tarde (13:50 - 18:50) e à noite (18:50 - 21:30)
+- Segundas: à tarde (13:50h - 18:50h)
+- Terças: à tarde (13:50h - 18:50h) e à noite (18:50h - 21:30h)
 
-Avaliações:
-Trabalhos/Provas
-
-Instalar no ubuntu 14.04 lts:
-O python já vem instalado em distribuições linux
-Instalar PIP: 
+Instalar no Ubuntu:
+1) O python já vem instalado em distribuições linux
+2) Instalar PIP: 
 - sudo apt-get -y install python-pip
-Instalar Flask:
+3) Instalar Flask:
 - sudo pip install Flask
-Instalar suporte Python com PostgreSQL:
+4) Instalar suporte Python com PostgreSQL:
 - sudo apt-get install python-psycopg2
 
-Instalar no windows:
-Instalar Python
+Instalar no Windows:
+1) Instalar Python
 - https://www.python.org/downloads/
 - Habilitar classpath (o único "x" vermelho que não está marcado na instalação)
 - Adicionar nas variáveis de ambiente
-Instalar PIP: 
+2) Instalar PIP: 
 - Baixar o arquivo get-pip.py
 - Site: https://pip.pypa.io/en/stable/installing/
 - E executá-lo: python get-pip.py
-Instalar Flask:
+3) Instalar Flask:
 - pip install Flask
-Link de apoio: http://matthewhorne.me/how-to-install-python-and-pip-on-windows-10/
+Link de apoio: http://matthewhorne.me/how-to-install-python-and-pip-on-wi…/
+4) Instalar suporte Python com PostgreSQL:
+- http://www.stickpeople.com/projects/python/win-psycopg/
