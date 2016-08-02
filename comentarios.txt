@@ -34,3 +34,4 @@ Instalar PIP:
 - E executá-lo: python get-pip.py
 Instalar Flask:
 - pip install Flask
+Link de apoio: http://matthewhorne.me/how-to-install-python-and-pip-on-windows-10/
