@@ -14,37 +14,23 @@ Terças: à tarde (13:50 - 18:50) e à noite (18:50 - 21:30)
 Avaliações:
 Trabalhos/Provas
 
-Instalar pip no ubuntu 14.04 lts:
+Instalar no ubuntu 14.04 lts:
+O python já vem instalado em distribuições linux
 Instalar PIP: 
-sudo apt-get -y install python-pip
+- sudo apt-get -y install python-pip
 Instalar Flask:
-pip install Flask
+- sudo pip install Flask
 Instalar suporte Python com PostgreSQL:
-sudo apt-get install python-psycopg2
+- sudo apt-get install python-psycopg2
 
-Instalar pip no windows:
-Previamente já ter o python instalado (preferível a versão 2.7 -baixar no site oficial)
-- Habilitar no classpath
+Instalar no windows:
+Instalar Python
+- https://www.python.org/downloads/
+- Habilitar classpath (o único "x" vermelho que não está marcado na instalação)
 - Adicionar nas variáveis de ambiente
-===============================
+Instalar PIP: 
 - Baixar o arquivo get-pip.py
 - Site: https://pip.pypa.io/en/stable/installing/
 - E executá-lo: python get-pip.py
+Instalar Flask:
 - pip install Flask
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
