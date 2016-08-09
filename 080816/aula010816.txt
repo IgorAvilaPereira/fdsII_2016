@@ -1,0 +1,66 @@
+Aula Passada
+==============
+> Setup:
+	> Python (2.7)
+	> PIP
+	> psycopg2
+	> Flask
+> Escrever na tela: print
+> Ler dados do usuário: raw_input("")
+> if <cond>:
+	bloco
+  elif <cond>:
+
+  else:
+
+  variavel = ((<cond>) ? "Sim" : "Nao")
+
+> while (<cond>):
+	
+> for i in range(0, 10):
+
+> >= <= > <
+> None 
+> or and
+> x+=1 (existe)
+> x++ (n existe)
+> True False
+
+def <nome>(param1, param2 = None):
+	<bloco>
+	return <resultado>
+===================================
+Hoje:
+> Funções
+> Módulos/Pacotes
+> Classe 
+> Herança
+https://pt.wikibooks.org/wiki/Python/Conceitos_b%C3%A1sicos/Heran%C3%A7a_e_polimorfismo
+> Exceção
+http://turing.com.br/pydoc/2.7/tutorial/errors.html
+> Banco: 
+http://initd.org/psycopg/docs/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+>
+
+
+
+
+
+
+
