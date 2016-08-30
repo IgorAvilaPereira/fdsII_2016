@@ -1,0 +1,22 @@
+{% extends "default.html" %}
+
+{% block conteudo %}
+
+
+Minha Pagina Inicial.....
+
+{{mensagem}}
+
+<hr />
+
+{{bambam}}
+
+<table border="1" style="background-color:aliceblue">
+{% for bodybuilder in frangos %}
+<tr>
+  <td> {{bodybuilder}} </td>
+</tr>
+{% endfor %}
+</table>
+
+{% endblock %}

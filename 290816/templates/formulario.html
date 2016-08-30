@@ -1,0 +1,33 @@
+{% extends "default.html" %}
+
+{% block css %}
+<style>
+
+span {
+    background-color: red;
+}
+</style>
+
+{% endblock %}
+
+
+
+
+{% block conteudo %}
+
+{% if nome %}
+  {{nome}}
+{% endif %}
+
+{% if senha %}
+  {{senha}}
+{% endif %}
+
+
+<form action = "http://localhost:5000/recebe" method="post">
+  <span class="trapeziodescendente"> Nome: </span> <input type="text" name="nome" /> <br>
+  <span class="trapeziodescendente">  Senha </span> <input type="password" name="senha" />
+  <br >
+  <input type="submit" />
+</form>
+{% endblock %}

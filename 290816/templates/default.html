@@ -1,0 +1,30 @@
+<html>
+  <head>
+    <title> Pagina ...</title>
+      <link href="http://localhost:5000/static/styles/estilo.css" rel="stylesheet" />
+      <script src="http://localhost:5000/static/js/script.js"></script>
+      {% block css %}   {% endblock %}
+  </head>
+<body>
+  <h1>Pagina do Igor</h1>
+<ul>
+  <li>
+    <a href="/"> Index </a>
+  </li>
+  <li>
+    <a href="/formulario"> Formulario </a>
+  </li>
+  <li>
+    <a href="/tinder/igor"> Acessar Tinder do Igor
+  </a>
+  </li>
+</ul>
+<hr>
+{% block conteudo %}
+
+{% endblock %}
+<hr>
+
+Direitos do igor....
+</body>
+</html>
