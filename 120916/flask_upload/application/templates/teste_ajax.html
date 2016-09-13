@@ -1,0 +1,25 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+    <title>Exemplo AJAX</title>
+    <script src="../static/js/script.js"></script>
+    </head>
+<body>
+
+<h1>Flask AJAX Test</h1>
+
+<form action="" method="POST">
+    <input type="text" name="scname" id="scname">
+    <input type="hidden" name="secret" id="secret" value="shhh">
+    <input type="button" value="Submit" onclick="return exemplo_ajax()">
+
+</form>
+
+<button onclick="exemplo_ajax_cep()">Busca Cep.......</button>
+Cep: <input type="text" id="cep" /> <br />
+logradouro:  <input type="text" id="logradouro" />
+
+<div id="myDiv"></div>
+
+</body>
+</html>

@@ -1,0 +1,67 @@
+<html>
+<head>
+  <title> </title>
+  <script>
+  var request = null;
+
+  function createRequest() {
+    try {
+      request = new XMLHttpRequest();
+    } catch (trymicrosoft) {
+      try {
+        request = new ActiveXObject("Msxml2.XMLHTTP");
+      } catch (othermicrosoft) {
+        try {
+          request = new ActiveXObject("Microsoft.XMLHTTP");
+        } catch (failed) {
+          request = null;
+        }
+      }
+    }
+
+    if (request == null)
+      alert("Error creating request object!");
+  }
+
+  function atualizaPagina() {
+  if (request.readyState == 4) {
+    var respostaDoServidor = request.responseText;
+    alert(respostaDoServidor);
+  }
+}
+
+
+
+  function getInformacaoQualquer() {
+       createRequest();
+    request.open('POST', '/_add_numbers');
+    request.onreadystatechange = atualizaPagina;
+    request.setRequestHeader("Content-type", "application/x-www-form-urlencoded")
+    var a = document.getElementById('a').value;
+    var b = document.getElementById('b').value;
+    var postVars = a+'/'+b;
+    request.send(postVars);
+    }
+
+
+
+  </script>
+</head>
+<body>
+
+    <form>
+      <input type="text" name="a" id="a" />
+      <input type="text" name="b" id="b"/>
+      <button onClick="getInformacaoQualquer();">Clica Aqui!!!</button>
+
+
+    </form>
+
+
+
+
+
+
+</body>
+
+</html>
